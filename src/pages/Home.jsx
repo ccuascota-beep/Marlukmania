@@ -1,4 +1,5 @@
 import Photos from "../components/Photos.jsx";
+import InformationEvent from "../components/InformationEvent.jsx";
 
 export default function Home() {
 
@@ -35,6 +36,8 @@ export default function Home() {
                 <h1 className=" ml-26 uppercase text-gray-300 text-lg font-semibold tracking-widest hover:text-white transition-all">Peleas</h1>
             </div>
             <Photos/>
+
+            <InformationEvent/>
 
 
         </>
