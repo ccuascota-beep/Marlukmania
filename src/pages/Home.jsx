@@ -1,5 +1,6 @@
 import Photos from "../components/Photos.jsx";
 import InformationEvent from "../components/InformationEvent.jsx";
+import Michael from "../components/Michael.jsx";
 
 export default function Home() {
 
@@ -38,6 +39,8 @@ export default function Home() {
             <Photos/>
 
             <InformationEvent/>
+
+            <Michael/>
 
 
         </>
