@@ -1,6 +1,7 @@
 import Photos from "../components/Photos.jsx";
 import InformationEvent from "../components/InformationEvent.jsx";
 import Michael from "../components/Michael.jsx";
+import Redes from "../components/Redes.jsx";
 
 export default function Home() {
 
@@ -11,7 +12,8 @@ export default function Home() {
                      width="140"
                      height="200"
                 />
-                <div className="flex flex-col items-center flex-1">
+                <div className="flex flex-col items-center text-center
+                ml-4 sm:ml-10 md:ml-20 lg:ml-138">
                     <h1 className="text-6xl font-extrabold text-white tracking-wider drop-shadow-[0_0_15px_#00f]">MARLUKMANIA</h1>
                     <h1 className="text-2xl font-extrabold text-blue-200 tracking-wide">Mas que luchas</h1>
                 </div>
@@ -19,7 +21,7 @@ export default function Home() {
 
             <div className= "flex justify-center gap-16 bg-[#111] py-4">
                 <button
-                    className="ml-36 uppercase text-gray-300 text-lg font-semibold tracking-widest hover:text-white transition-all"
+                    className="ml-12 uppercase text-gray-300 text-lg font-semibold tracking-widest hover:text-white transition-all"
                 >Luchas
                 </button>
 
@@ -34,14 +36,19 @@ export default function Home() {
                 </button>
             </div>
             <div  className= "flex justify-center gap-16 bg-[#111] py-4">
-                <h1 className=" ml-26 uppercase text-gray-300 text-lg font-semibold tracking-widest hover:text-white transition-all">Peleas</h1>
+                <h1 className=" ml-2 uppercase text-gray-300 text-lg font-semibold tracking-widest hover:text-white transition-all">Peleas</h1>
             </div>
+
             <Photos/>
 
             <InformationEvent/>
 
             <Michael/>
 
+            <header className="bg-gray-500">
+                <h1>Hola</h1>
+                <Redes/>
+            </header>
 
         </>
     )

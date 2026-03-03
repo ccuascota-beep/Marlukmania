@@ -3,7 +3,6 @@ export default function InformationEvent() {
         <section className="w-full py-20 flex justify-end pr-[1%]">
             <div className="max-w-4xl w-full px-4 grid md:grid-cols-2 gap-6 items-center">
 
-                {/* Texto */}
                 <div className="space-y-4">
                     <h1 className="text-2xl md:text-3xl font-bold leading-snug text-gray-900">
                         ¿Qué es la Marlukmania?
@@ -19,7 +18,6 @@ export default function InformationEvent() {
                     </p>
                 </div>
 
-                {/* Imagen */}
                 <div className="flex justify-center">
                     <div className=" rounded-xl p-3 max-w-sm w-full">
                         <img
