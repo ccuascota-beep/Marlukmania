@@ -1,6 +1,6 @@
 export default function InformationEvent() {
     return (
-        <section className="w-full py-20 flex justify-end pr-[1%]">
+        <section className="w-full py-20 flex justify-end pr-[1%] bg-gray-400">
             <div className="max-w-4xl w-full px-4 grid md:grid-cols-2 gap-6 items-center">
 
                 <div className="space-y-4">

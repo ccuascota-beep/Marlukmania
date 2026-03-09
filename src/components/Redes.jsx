@@ -29,9 +29,7 @@ export default function Redes() {
                     <FaYoutube className="text-red-600 w-6 h-6 hover:scale-110 transition cursor-pointer" />
                 </a>
 
-
             </div>
-
         </div>
     )
 }

@@ -1,6 +1,6 @@
 export default function Michael() {
     return (
-        <section className="w-full py-8 flex justify-start">
+        <section className="w-full py-8 flex justify-start bg-gray-500">
             <div className="ml-[1%] max-w-4xl w-full px-4 grid md:grid-cols-2 gap-6 items-center">
 
                 <div className="flex justify-center">
