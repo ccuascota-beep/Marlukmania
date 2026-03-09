@@ -3,6 +3,7 @@ import InformationEvent from "../components/InformationEvent.jsx";
 import Michael from "../components/Michael.jsx";
 import Redes from "../components/Redes.jsx";
 import War from "../components/War.jsx";
+import { Link } from "react-router-dom";
 
 export default function Home() {
 
@@ -21,10 +22,12 @@ export default function Home() {
             </div>
 
             <div className= "flex justify-center gap-16 bg-[#111] py-4">
-                <button
-                    className="ml-12 uppercase text-gray-300 text-lg font-semibold tracking-widest hover:text-white transition-all"
-                >Luchas
-                </button>
+
+                <Link to="/Luchas">
+                    <button className="ml-12 uppercase text-gray-300 text-lg font-semibold tracking-widest hover:text-white transition-all">
+                        Luchas
+                    </button>
+                </Link>
 
                 <button
                     className="uppercase text-gray-300 text-lg font-semibold tracking-widest hover:text-white transition-all"
