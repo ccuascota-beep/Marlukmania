@@ -12,13 +12,12 @@ export default function Modal({ isOpen, onClose, children, trailerKey }) {
         >
             <div
                 className="
-                    relative w-full max-w-7xl h-[92vh]
-                    bg-zinc-900 text-white
-                    rounded-3xl
-                    drop-shadow-[0_0_2px_#00f]
-                    p-10
-                    overflow-y-auto
-                    border border-white/10
+                relative w-full max-w-2xl
+               bg-zinc-900 text-white
+                rounded-3xl
+                drop-shadow-[0_0_2px_#00f]
+                p-10
+                border border-white/10
                 "
                 onClick={(e) => e.stopPropagation()}
             >

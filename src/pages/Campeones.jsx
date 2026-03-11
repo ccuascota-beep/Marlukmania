@@ -1,5 +1,7 @@
 import { useState } from "react";
 import Modal from "../components/Modal";
+import {FaInstagram, FaTiktok, FaYoutube} from "react-icons/fa";
+import {SiKick} from "react-icons/si";
 
 export default function Campeones() {
 
@@ -68,7 +70,7 @@ export default function Campeones() {
                         />
 
                         <div>
-                            <h1 className="text-4xl font-bold">Yalmar</h1>
+                            <h1 className="text-4xl font-bold drop-shadow-[0_0_15px_#00f]">Yalmar</h1>
                             <p className="text-gray-400 mt-2">Ex campeón Marlukmania</p>
 
                             <p className="mt-4 text-gray-300">
@@ -76,8 +78,35 @@ export default function Campeones() {
                                 Durante su reinado defendió el campeonato contra varios
                                 luchadores importantes del evento.
                             </p>
-                        </div>
+                            <div className="  px-6 py-4 bg-black">
 
+                                <h1 className="text-white font-bold text-xl">MARLUKMANIA</h1>
+
+                                <div className="flex gap-5">
+
+                                    <a href="https://www.instagram.com/michaelstevem/?hl=es-la" target="_blank" rel="noopener noreferrer">
+                                        <FaInstagram className="text-pink-500 w-6 h-6 hover:scale-110 transition cursor-pointer" />
+                                    </a>
+
+                                    <a href="https://www.tiktok.com/@michaelsteve?lang=es" target="_blank" rel="noopener noreferrer">
+                                        <FaTiktok className="text-white w-6 h-6 hover:scale-110 transition cursor-pointer" />
+                                    </a>
+
+                                    <a href="https://kick.com/marluking_on_fire" target="_blank" rel="noopener noreferrer">
+                                        <SiKick className="text-green-500 w-6 h-6 hover:scale-110 transition cursor-pointer" />
+                                    </a>
+
+                                    <a href="https://www.youtube.com/@MarluKingExclusive" target="_blank" rel="noopener noreferrer">
+                                        <FaYoutube className="text-red-600 w-6 h-6 hover:scale-110 transition cursor-pointer" />
+                                    </a>
+
+                                    <a href="https://www.youtube.com/@SUERTE-TV/featured" target="_blank" rel="noopener noreferrer">
+                                        <FaYoutube className="text-red-600 w-6 h-6 hover:scale-110 transition cursor-pointer" />
+                                    </a>
+
+                                </div>
+                            </div>
+                        </div>
                     </div>
                 )}
 
@@ -91,7 +120,7 @@ export default function Campeones() {
                         />
 
                         <div>
-                            <h1 className="text-4xl font-bold">Jaguar</h1>
+                            <h1 className="text-4xl font-bold drop-shadow-[0_0_15px_#00f]">Jaguar</h1>
                             <p className="text-yellow-400 mt-2">Campeón actual Marlukmania</p>
 
                             <p className="mt-4 text-gray-300">
@@ -99,8 +128,35 @@ export default function Campeones() {
                                 Conocido por su velocidad y agresividad en el ring,
                                 logró conquistar el campeonato en una lucha histórica.
                             </p>
-                        </div>
+                            <div className="  px-6 py-4 bg-black">
 
+                                <h1 className="text-white font-bold text-xl">MARLUKMANIA</h1>
+
+                                <div className="flex gap-5">
+
+                                    <a href="https://www.instagram.com/michaelstevem/?hl=es-la" target="_blank" rel="noopener noreferrer">
+                                        <FaInstagram className="text-pink-500 w-6 h-6 hover:scale-110 transition cursor-pointer" />
+                                    </a>
+
+                                    <a href="https://www.tiktok.com/@michaelsteve?lang=es" target="_blank" rel="noopener noreferrer">
+                                        <FaTiktok className="text-white w-6 h-6 hover:scale-110 transition cursor-pointer" />
+                                    </a>
+
+                                    <a href="https://kick.com/marluking_on_fire" target="_blank" rel="noopener noreferrer">
+                                        <SiKick className="text-green-500 w-6 h-6 hover:scale-110 transition cursor-pointer" />
+                                    </a>
+
+                                    <a href="https://www.youtube.com/@MarluKingExclusive" target="_blank" rel="noopener noreferrer">
+                                        <FaYoutube className="text-red-600 w-6 h-6 hover:scale-110 transition cursor-pointer" />
+                                    </a>
+
+                                    <a href="https://www.youtube.com/@SUERTE-TV/featured" target="_blank" rel="noopener noreferrer">
+                                        <FaYoutube className="text-red-600 w-6 h-6 hover:scale-110 transition cursor-pointer" />
+                                    </a>
+
+                                </div>
+                            </div>
+                        </div>
                     </div>
                 )}
 
