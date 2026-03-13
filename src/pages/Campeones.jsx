@@ -78,30 +78,28 @@ export default function Campeones() {
                                 Durante su reinado defendió el campeonato contra varios
                                 luchadores importantes del evento.
                             </p>
-                            <div className="  px-6 py-4 bg-black">
+                            <div className="  px-6 py-5 bg-black">
 
-                                <h1 className="text-white font-bold text-xl">MARLUKMANIA</h1>
+                                <div className="flex flex-col gap-3">
 
-                                <div className="flex gap-5">
-
-                                    <a href="https://www.instagram.com/michaelstevem/?hl=es-la" target="_blank" rel="noopener noreferrer">
+                                    <a href="https://www.instagram.com/yalmarrrr/" target="_blank" rel="noopener noreferrer" className="flex items-center gap-3">
                                         <FaInstagram className="text-pink-500 w-6 h-6 hover:scale-110 transition cursor-pointer" />
+                                        <span className="text-white">yalmarrrr</span>
                                     </a>
 
-                                    <a href="https://www.tiktok.com/@michaelsteve?lang=es" target="_blank" rel="noopener noreferrer">
+                                    <a href="https://www.tiktok.com/@guineomosqueado" target="_blank" rel="noopener noreferrer" className="flex items-center gap-3">
                                         <FaTiktok className="text-white w-6 h-6 hover:scale-110 transition cursor-pointer" />
+                                        <span className="text-white">Yalmar (chiclebomba)</span>
                                     </a>
 
-                                    <a href="https://kick.com/marluking_on_fire" target="_blank" rel="noopener noreferrer">
+                                    <a href="https://kick.com/yalmarrr" target="_blank" rel="noopener noreferrer" className="flex items-center gap-3">
                                         <SiKick className="text-green-500 w-6 h-6 hover:scale-110 transition cursor-pointer" />
+                                        <span className="text-white">yalmarrr</span>
                                     </a>
 
-                                    <a href="https://www.youtube.com/@MarluKingExclusive" target="_blank" rel="noopener noreferrer">
+                                    <a href="https://www.youtube.com/@yalmarrrkick" target="_blank" rel="noopener noreferrer" className="flex items-center gap-3">
                                         <FaYoutube className="text-red-600 w-6 h-6 hover:scale-110 transition cursor-pointer" />
-                                    </a>
-
-                                    <a href="https://www.youtube.com/@SUERTE-TV/featured" target="_blank" rel="noopener noreferrer">
-                                        <FaYoutube className="text-red-600 w-6 h-6 hover:scale-110 transition cursor-pointer" />
+                                        <span className="text-white">Yalmarrr Kick</span>
                                     </a>
 
                                 </div>
