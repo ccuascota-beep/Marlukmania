@@ -2,6 +2,7 @@ import { useState } from "react";
 import Modal from "../components/Modal";
 import {FaInstagram, FaTiktok, FaYoutube} from "react-icons/fa";
 import {SiKick} from "react-icons/si";
+import {FaXTwitter} from "react-icons/fa6";
 
 export default function Campeones() {
 
@@ -128,16 +129,21 @@ export default function Campeones() {
                             </p>
                             <div className="  px-6 py-4 bg-black">
 
-                                <h1 className="text-white font-bold text-xl">MARLUKMANIA</h1>
-
                                 <div className="flex flex-col gap-3">
 
-                                    <a href="https://www.instagram.com/michaelstevem/?hl=es-la" target="_blank" rel="noopener noreferrer">
-                                        <FaInstagram className="text-pink-500 w-6 h-6 hover:scale-110 transition cursor-pointer" />
+                                    <a href="https://www.instagram.com/jaguarecu/" target="_blank" rel="noopener noreferrer" className="flex items-center gap-3">
+                                        <FaInstagram className="text-pink-500 w-6 h-6 hover:scale-110 transition cursor-pointer"/>
+                                        <span className="text-white">jaguarecu</span>
                                     </a>
 
-                                    <a href="https://www.tiktok.com/@michaelsteve?lang=es" target="_blank" rel="noopener noreferrer">
-                                        <FaTiktok className="text-white w-6 h-6 hover:scale-110 transition cursor-pointer" />
+                                    <a href="https://www.youtube.com/@jaguarwar570/featured" target="_blank" rel="noopener noreferrer" className="flex items-center gap-3">
+                                        <FaYoutube className="text-red-600 w-6 h-6 hover:scale-110 transition cursor-pointer"/>
+                                        <span className="text-white">jaguar wrestlingec</span>
+                                    </a>
+
+                                    <a href="https://x.com/Jaguarwar1997" target="_blank" rel="noopener noreferrer" className="flex items-center gap-3">
+                                        <FaXTwitter className="text-white w-6 h-6 hover:scale-110 transition cursor-pointer"/>
+                                        <span className="text-white">Jaguar War</span>
                                     </a>
 
                                 </div>
