@@ -1,8 +1,6 @@
 import Photos from "../components/Photos.jsx";
 import InformationEvent from "../components/InformationEvent.jsx";
 import Michael from "../components/Michael.jsx";
-import Redes from "../components/Redes.jsx";
-import War from "../components/War.jsx";
 
 export default function Home() {
 
@@ -18,11 +16,6 @@ export default function Home() {
             <InformationEvent/>
             <br/>
             <Michael/>
-            <br/>
-            <header>
-                <Redes/>
-                <War/>
-            </header>
 
         </>
     )
