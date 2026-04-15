@@ -3,6 +3,19 @@ const secciones = [
         titulo: "Influencers",
         personas: [
             {
+                id: "Pollo Loko",
+                nombre: "Michael Steven",
+                imagen: "/Luchadores/steven.jpg",
+                descripcion: "Ex campeon de la Marlukmania",
+                redes: {
+                    instagram: "https://www.instagram.com/yalmarrrr/",
+                    tiktok: "https://www.tiktok.com/@guineomosqueado",
+                    kick: "https://www.kick.com/@guineomosqueado",
+                    youtube: "https://www.youtube.com/@guineomosqueado",
+
+                }
+            },
+            {
                 id: "yalmar",
                 nombre: "Yalmar",
                 imagen: "/Luchadores/yalmar2.jpg",
@@ -13,18 +26,8 @@ const secciones = [
                 }
             },
             {
-                id: "Pollo Loko",
-                nombre: "Pollo Loko",
-                imagen: "/Luchadores/steven.jpg",
-                descripcion: "Ex campeon de la Marlukmania",
-                redes: {
-                    instagram: "https://www.instagram.com/yalmarrrr/",
-                    tiktok: "https://www.tiktok.com/@guineomosqueado"
-                }
-            },
-            {
                 id: "Ismael",
-                nombre: "Ismael",
+                nombre: "Ismael Sanchez",
                 imagen: "/Luchadores/Ismael.jpg",
                 descripcion: "Ex campeon de la Marlukmania",
                 redes: {
@@ -54,7 +57,7 @@ const secciones = [
         personas: [
             {
                 id: "Nexar",
-                nombre: "Nexar",
+                nombre: "Nexar Gomez",
                 imagen: "/Luchadores/Nexar.jpg",
                 descripcion: "Ex campeon de la Marlukmania",
                 redes: {
